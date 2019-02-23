@@ -2,8 +2,22 @@
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function mostrar()
 {	
-	/*  PRIMER COMANDO DE CONSOLA  */ 
-	
+
+var nombre;
+	var edad;
+	nombre = elNombre.value;
+	edad = laEdad.value;
+
+	alert("usted se llama : "+nombre);
+	alert("y su edad es de: " +edad);
 
 }
+
+
+
+
+
+
+
+
 

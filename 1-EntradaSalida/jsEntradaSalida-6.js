@@ -3,19 +3,21 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	var. uno;
-	var. dos;
-	var. resultado;
+ var numero1;
+ var numero2;
+ var suma ;
+ 
+  numero1= parseInt (numeroUno.value);
+ 
+  numero2= parseInt(numeroDos.value);
 
-uno=numeroUno.value;
-uno=parseInt (numeroUno);
-dos=numeroDos.value;
-dos=parseInt (numeroDos);
+suma= (numero1) + (numero2);
 
-resultado= numeroUno+numeroDos;
-alert( "la suma es: "+resultado);
+   alert("la suma es" + suma );
 
 
+}	
 
-}
+
+
 
